@@ -4,7 +4,7 @@
 body {
     font-family: 'Fira Sans', monospace;
     font-size: small;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0);
     color: #dddddd;
 }
 
