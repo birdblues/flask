@@ -4,7 +4,7 @@
 body {
     font-family: 'Fira Sans', monospace;
     font-size: small;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 1);
     color: #dddddd;
 }
 
@@ -50,8 +50,8 @@ a:hover {
 } */
 
 .container {
-    width: 95vw;
-    height: 95vw;
+    width: 100vw;
+    height: 100vw;
     margin-left: 0vh;
     margin-right: 0vh;
     margin-top: 0vh;
