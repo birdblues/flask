@@ -4,7 +4,7 @@
 body {
     font-family: 'Fira Sans', monospace;
     font-size: small;
-    background-color: #1B2631;
+    background-color: rgba(0, 0, 0, 0);
     color: #dddddd;
 }
 
@@ -23,22 +23,11 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 10px;
-    grid-template-areas:
-        "one two"
-        "three four"
-        "five six"
-    }
-    .options-container.one { grid-area: one;}
-    .options-container.two { grid-area: two;}
-    .options-container.three { grid-area: three;}
-    .options-container.four { grid-area: four;}
-    .options-container.five { grid-area: five;}
-    .options-container.six { grid-area: six;}
+    
 
 .options-container > div {
     border: 1px solid #dddddd;
-    box-shadow: 15px 15px #131b23;
+    box-shadow: 0px 0px #131b23;
 }
 
 a:link {
@@ -61,17 +50,17 @@ a:hover {
 } */
 
 .container {
-    width: 90vw;
-    height: 90vh;
-    margin-left: auto;
-    margin-right: auto;
+    width: 95vw;
+    height: 95vw;
+    margin-left: 0vh;
+    margin-right: 0vh;
     margin-top: 0vh;
     margin-bottom: 0vh;
 }
 
 #tv-chart-1 {
     border: 1px dashed #dddddd;
-    box-shadow: 15px 15px #131b23;
+    box-shadow: 0px px #131b23;
     z-index: 9;
 }
 
@@ -81,7 +70,7 @@ button {
     background-color: #ffffff05;
     font-family: 'Fira Sans', monospace;
     border: 1px solid #dddddd;
-    box-shadow: 10px 10px #131b23;
+    box-shadow: 0px 0px #131b23;
     margin-bottom: 10px;
     margin-right: 20px;
     padding: 20px;
