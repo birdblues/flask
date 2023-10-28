@@ -5,7 +5,7 @@ body {
     font-family: 'Fira Sans', monospace;
     font-size: small;
     background-color: #191919;
-    color: rgba(0, 0, 0, 0);
+    color: #dddddd00;
 }
 
 h1 {
@@ -23,7 +23,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-}
+    
 
 .options-container > div {
     border: 1px solid #dddddd;
@@ -52,8 +52,8 @@ a:hover {
 .container {
     width: 100vw;
     height: 100vw;
-    margin-left: 0vh;
-    margin-right: 0vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
     margin-top: 0vh;
     margin-bottom: 0vh;
 }
