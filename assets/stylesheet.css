@@ -4,8 +4,8 @@
 body {
     font-family: 'Fira Sans', monospace;
     font-size: small;
-    background-color: rgba(0, 0, 0, 0);
-    color: #dddddd;
+    background-color: #191919;
+    color: rgba(0, 0, 0, 0);
 }
 
 h1 {
@@ -19,11 +19,11 @@ h1 {
 
 .options-container {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    
+}
 
 .options-container > div {
     border: 1px solid #dddddd;

@@ -42,10 +42,9 @@ main_panel = [
    
 ]
 
-
 chart_options = {
     'layout': {
-        'background': {'type': 'solid', 'color': '#1B2631'},
+        'background': {'type': 'solid', 'color': '#000000'},
         'textColor': 'white',
     },
     'grid': {
