@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+sans');
-@import url('https://fonts.googleapis.com/css?family=Inter');
+/* @import url('https://fonts.googleapis.com/css?family=Fira+sans');
+@import url('https://fonts.googleapis.com/css?family=Inter'); */
 
 body {
-    font-family: 'Fira Sans', monospace;
     font-size: small;
     background-color: #191919;
     color: #dddddd00;
